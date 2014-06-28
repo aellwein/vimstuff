@@ -23,7 +23,8 @@ Plugin 'zeis/vim-kolor'
 Plugin 'davidhalter/jedi-vim'
 Plugin 'ervandew/supertab'
 Plugin 'vim-scripts/minibufexpl.vim'
-
+Plugin 'scrooloose/nerdtree'
+Plugin 'vim-scripts/taglist.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
