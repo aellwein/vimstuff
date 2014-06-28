@@ -3,7 +3,9 @@
 git submodule init
 git submodule update --recursive
 
-rm -f ~/.vimrc && cp .vimrc ~/
-rm -rf ~/.vim && cp -R .vim ~/ 
+mv ~/.vimrc ~/.vimrc.old 
+cp .vimrc ~/
+mv ~/.vim ~/.vim.old 
+cp -R .vim ~/
 
 vim +PluginInstall +qall
