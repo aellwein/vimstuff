@@ -5,6 +5,8 @@ My ``.vimrc`` configuration file and VIM plugins, based on
 
 After clone, execute:
 
+``git submodule init``
+
 ``git submodule update --recursive``
 
 ``./replace.sh``
