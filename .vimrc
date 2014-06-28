@@ -25,6 +25,7 @@ Plugin 'ervandew/supertab'
 Plugin 'vim-scripts/minibufexpl.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'vim-scripts/taglist.vim'
+Plugin 'Slashbunny/vim-colorsamplerpack'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
