@@ -21,6 +21,7 @@ Plugin 'Lokaltog/vim-powerline'
 Plugin 'nvie/vim-flake8'
 Plugin 'zeis/vim-kolor'
 Plugin 'davidhalter/jedi-vim'
+Plugin 'revolvingcow/vim-umbrella'
 Plugin 'ervandew/supertab'
 Plugin 'vim-scripts/minibufexpl.vim'
 Plugin 'scrooloose/nerdtree'
@@ -222,6 +223,10 @@ set wildignore+=*/coverage/*
 set nofoldenable
 
 colorscheme kolor
+
+" Umbrella settings
+nnoremap    <F8>   :<C-U>Umbrella<CR>
+
 
 if has("gui_running")
       " GUI is running or is about to start.
