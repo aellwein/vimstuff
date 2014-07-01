@@ -234,3 +234,6 @@ if has("gui_running")
       "   " Maximize gvim window.
       set lines=999 columns=999
 endif
+
+"For Windows to have nice font
+"set guifont=Consolas:h12
