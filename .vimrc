@@ -48,7 +48,7 @@ set clipboard=unnamed
 
 " Mouse and backspace
 set mouse=a  " on OSX press ALT and click
-"set bs=2     " make backspace behave like normal again
+set bs=2     " make backspace behave like normal again
 
 
 " Rebind <Leader> key
@@ -60,20 +60,20 @@ let mapleader = ","
 " Bind nohl
 " Removes highlight of your last search
 " ``<C>`` stands for ``CTRL`` and therefore ``<C-n>`` stands for ``CTRL+n``
-"" noremap <C-n> :nohl<CR>
+noremap <C-n> :nohl<CR>
 "" vnoremap <C-n> :nohl<CR>
 "" inoremap <C-n> :nohl<CR>
 
 
 " Quicksave command
-"" noremap <C-Z> :update<CR>
+noremap <C-Z> :update<CR>
 "" vnoremap <C-Z> <C-C>:update<CR>
 "" inoremap <C-Z> <C-O>:update<CR>
 
 
 " Quick quit command
-"" noremap <Leader>e :quit<CR>  " Quit current window
-"" noremap <Leader>E :qa!<CR>   " Quit all windows
+noremap <Leader>e :quit<CR>  " Quit current window
+noremap <Leader>E :qa!<CR>   " Quit all windows
 
 
 " bind Ctrl+<movement> keys to move around the windows, instead of using Ctrl+w + <movement>
@@ -96,8 +96,8 @@ vnoremap <Leader>s :sort<CR>
 " easier moving of code blocks
 " Try to go into visual mode (v), thenselect several lines of code here and
 " then press ``>`` several times.
-"" vnoremap < <gv  " better indentation
-"" vnoremap > >gv  " better indentation
+vnoremap < <gv  " better indentation
+vnoremap > >gv  " better indentation
 
 
 " Show whitespace
